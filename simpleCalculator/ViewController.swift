@@ -92,9 +92,12 @@ class ViewController: UIViewController {
             $0.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
             $0.backgroundColor = UIColor(red: 58/255, green: 58/255, blue: 58/255, alpha: 1.0)
             $0.layer.cornerRadius = 40
+            
+            //"AC"와 기호들을 포함하고 있다면, 배경색 주황색으로 변경.
+            if ["+", "-", "*", "/", "=", "AC"].contains(title) {
+                $0.backgroundColor = .orange
+            }
         }
-        
-        
         return btn
     }
 }
