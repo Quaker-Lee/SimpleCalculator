@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BA52DE12CEF9595005F20A3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3BA52DE02CEF9595005F20A3 /* SnapKit */; };
+		3BE8BA222CEFABAE001EF7B4 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 3BE8BA212CEFABAE001EF7B4 /* Then */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA52DE12CEF9595005F20A3 /* SnapKit in Frameworks */,
+				3BE8BA222CEFABAE001EF7B4 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +141,7 @@
 			name = simpleCalculator;
 			packageProductDependencies = (
 				3BA52DE02CEF9595005F20A3 /* SnapKit */,
+				3BE8BA212CEFABAE001EF7B4 /* Then */,
 			);
 			productName = simpleCalculator;
 			productReference = 3B3037DB2CEF21B200AD8656 /* simpleCalculator.app */;
@@ -224,6 +227,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				3B30380F2CEF91ED00AD8656 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3B9C38652CEFAA2200BE1677 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3B3037DC2CEF21B200AD8656 /* Products */;
@@ -588,6 +592,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		3B9C38652CEFAA2200BE1677 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -595,6 +607,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3B30380F2CEF91ED00AD8656 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		3BE8BA212CEFABAE001EF7B4 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B9C38652CEFAA2200BE1677 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
