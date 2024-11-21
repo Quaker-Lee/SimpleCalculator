@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3BA52DE12CEF9595005F20A3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3BA52DE02CEF9595005F20A3 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3B3037F22CEF21B400AD8656 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA52DE12CEF9595005F20A3 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 				3B3037DD2CEF21B200AD8656 /* simpleCalculator */,
 				3B3037F42CEF21B400AD8656 /* simpleCalculatorTests */,
 				3B3037FE2CEF21B400AD8656 /* simpleCalculatorUITests */,
+				3BA52DDF2CEF9595005F20A3 /* Frameworks */,
 				3B3037DC2CEF21B200AD8656 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +109,13 @@
 				3B3037FB2CEF21B400AD8656 /* simpleCalculatorUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA52DDF2CEF9595005F20A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			);
 			name = simpleCalculator;
 			packageProductDependencies = (
+				3BA52DE02CEF9595005F20A3 /* SnapKit */,
 			);
 			productName = simpleCalculator;
 			productReference = 3B3037DB2CEF21B200AD8656 /* simpleCalculator.app */;
@@ -208,6 +222,9 @@
 			);
 			mainGroup = 3B3037D22CEF21B200AD8656;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3B30380F2CEF91ED00AD8656 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3B3037DC2CEF21B200AD8656 /* Products */;
 			projectDirPath = "";
@@ -293,7 +310,6 @@
 				INFOPLIST_FILE = simpleCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +336,6 @@
 				INFOPLIST_FILE = simpleCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -563,6 +578,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B30380F2CEF91ED00AD8656 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BA52DE02CEF9595005F20A3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B30380F2CEF91ED00AD8656 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B3037D32CEF21B200AD8656 /* Project object */;
 }
