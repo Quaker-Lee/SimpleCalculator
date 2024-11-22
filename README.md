@@ -2,6 +2,8 @@
 
 Language - `Swift`  
 Libraries  - `SnapKit`, `Then`  
+SW Version - `iOS 18.1`, `MacOS 15.1`, `Xcode 16.1`
+
 
 ---
 
