@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     //숫자들이 보일 Label
     private let numberLabel = UILabel().then {
-        $0.text = "12345"
+        $0.text = "0"
         $0.textColor = .white
         $0.textAlignment = .right
         $0.font = UIFont.boldSystemFont(ofSize: 60)
